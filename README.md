@@ -1,1 +1,1 @@
-This is Namaste Recat course by Akshay Saini
+This is Namaste React course by Akshay Saini
