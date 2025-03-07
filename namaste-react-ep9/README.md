@@ -1,0 +1,6 @@
+This is the Ninth episode of Namaste React course by Akshay Saini.
+
+In this episode we saw how to optimize our application. First we learned to make a custom hook. We made a custom hook to fetch the restaurant menu data and by doing this we followed single responsibility principle. Our restaurant will have the task of displaying the data as fetching of data is done by our custom hook. Due to this our code becomes more maintainable and testable and readable. Then we created another custom hook to check the online status. We can use this custom hook at multiple places in our code. Then we saw how we can use dev console to throttle it to online and offline mode. Then we learned about lazy loading. When we run the react code react bundles all the code into a single file but most of that code is unnecessary at that time. we only require the code which we need to display on the webpage. Due to this large file of all the code our application can become slow, so we need to divide the code into various chunks. so that whatever is necessary react will bundle it into single file and render the page. This is acheived with help of lazy function. Then we saw the use of the suspense component when we use lazy function until we have received the data we can display some loading or shimmer ui using the suspense keyword.
+
+Assignment 9
+notes
